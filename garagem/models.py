@@ -6,7 +6,7 @@ class Categoria(models.Model):
     def __str__(self):
         return self.descricao
 
-class Editora(models.Model):
+class Marca(models.Model):
     nome = models.CharField(max_length=100)
     site = models.URLField(null=True, blank=True)
 
